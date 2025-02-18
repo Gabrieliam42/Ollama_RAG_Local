@@ -1,4 +1,4 @@
-# Ollama_RAG_Local
+## Ollama_RAG_Local
 
 ###### Ollama RAG with Local Data
 
