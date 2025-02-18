@@ -3,12 +3,12 @@
 ###### Ollama RAG with Local Data
 
 ##### This script has been tested on the Windows environment.
+#
 
 ##### Prerequisites:
 
 Python 3.10 or later
 Docker Desktop
-
 #
 
 ##### Requirements:
