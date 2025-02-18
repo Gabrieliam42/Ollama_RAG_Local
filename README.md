@@ -8,7 +8,7 @@
 ##### Prerequisites:
 
 - Python 3.10 or later
-- Docker Desktop
+- Docker
 #
 
 ##### Requirements:
