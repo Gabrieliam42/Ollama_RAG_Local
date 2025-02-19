@@ -34,7 +34,7 @@
 
    `docker run -d -p 8000:8000 --gpus all --name chromadb chromadb/chroma:0.6.2`
 
-2.Run Ollama and install text embedding model by running this command in cmd: `ollama pull nomic-embed-text`
+2. Run Ollama and install text embedding model by running this command in cmd: `ollama pull nomic-embed-text`
 
 3. Create a directory named `Local_RAG_data` in the project directory
 
