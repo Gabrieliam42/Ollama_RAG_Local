@@ -32,7 +32,7 @@
 
 1. Run chromadb in Docker with the following cmd command:
 
-`docker run -d -p 8000:8000 --gpus all --name chromadb chromadb/chroma:0.6.2`
+   `docker run -d -p 8000:8000 --gpus all --name chromadb chromadb/chroma:0.6.2`
 
 2.Run Ollama and install text embedding model by running this command in cmd: `ollama pull nomic-embed-text`
 
