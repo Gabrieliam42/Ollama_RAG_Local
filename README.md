@@ -9,6 +9,7 @@
 
 - Python 3.10 or later
 - Docker
+- Ollama
 #
 
 ##### Requirements:
@@ -33,13 +34,15 @@
 
 `docker run -d -p 8000:8000 --gpus all --name chromadb chromadb/chroma:0.6.2`
 
-2. Create a directory named `Local_RAG_data` in the project directory
+2.Run Ollama and install nomic text embedding model by running this command in cmd: `ollama pull nomic-embed-text`
 
-3. Copy your local text data files (.txt) in the `Local_RAG_data` directory
+3. Create a directory named `Local_RAG_data` in the project directory
 
-4. Run `import_Local_RAG_data.py` and wait for it to chunk the text and to create the vector store database in chromadb
+4. Copy your local text data files (.txt) in the `Local_RAG_data` directory
 
-5. Ask Ollama RAG a question by using: `python runRAG.py "Your query here"` (Replace "Your query here" with your actual question or task)
+5. Run `import_Local_RAG_data.py` and wait for it to chunk the text and to create the vector store database in chromadb
+
+6. Ask Ollama RAG a question by using: `python runRAG.py "Your query here"` (Replace "Your query here" with your actual question or task)
 
 You can use `test_chromadb.py` to check if chromadb is running and that the database has been created inside it.
 
