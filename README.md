@@ -45,6 +45,7 @@
 6. Ask Ollama RAG a question by using: `python runRAG.py "Your query here"` (Replace "Your query here" with your actual question or task)
 
 You can use `test_chromadb.py` to check if chromadb is running and that the database has been created inside it.
+Also you can enter `http://localhost:8000/docs` to access the chromadb API.
 
 <br><br>
 
