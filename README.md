@@ -40,7 +40,7 @@
 
 4. Copy your local text data files (.txt) in the `Local_RAG_data` directory
 
-5. Run `import_Local_RAG_data.py` and wait for it to chunk the text and to create the vector store database in chromadb
+5. Run `import_Local_RAG_data.py` and wait for it to chunk the text, and it will then create the vector store database in chromadb
 
 6. Ask Ollama RAG a question by using: `python runRAG.py "Your query here"` (Replace "Your query here" with your actual question or task)
 
