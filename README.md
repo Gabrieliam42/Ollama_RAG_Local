@@ -31,6 +31,7 @@
 
 
 
+
 #### Usage:
 
 1. Run chromadb in Docker with the following cmd command:
