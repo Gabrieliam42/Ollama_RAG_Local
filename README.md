@@ -9,7 +9,7 @@
 
 - Python 3.10 or later
 - Docker
-- Ollama (`docker create --name ollama -p 11434:11434 --gpus all ollama/ollama`) or `https://ollama.com/download`
+- Ollama `https://ollama.com/download` or (`docker create --name ollama -p 11434:11434 --gpus all ollama/ollama`)
 #
 
 ##### Requirements:
