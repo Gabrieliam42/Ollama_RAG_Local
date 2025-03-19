@@ -1,4 +1,4 @@
-## Ollama_RAG_Local
+## Ollama Retrieval-Augmented Generation system with your Local Data
 
 ###### This project implements a system of RAG (Retrieval-Augmented Generation) that works with Ollama, with the Local Data you feed it.
 
