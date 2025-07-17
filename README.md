@@ -13,6 +13,7 @@
 - ChromaDB `docker run -d --name Chromadb -p 8000:8000 --gpus=all -v ./chroma:/chroma/chroma -e IS_PERSISTENT=FALSE chromadb/chroma:0.6.2`
 #
 
+
 ##### Requirements:
 
 - `chromadb==0.6.2`
