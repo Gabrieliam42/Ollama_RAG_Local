@@ -62,9 +62,11 @@
 
 4. Copy your local text data files (.txt) in the `Local_RAG_data` directory
 
-5. Run `import_Local_RAG_data.py` and wait for it to chunk the text, and it will then create the vector store database in chromadb
+5. Run `import_Local_RAG_data.py` and wait for it to chunk the text, and it will then create the vector store database in chromadb, OR You can run `PDF_text_extract.py` if you want to extract information from PDF files. (PDF files in the same directory as the script)
 
 6. Ask Ollama RAG a question in the terminal by using: `python runRAG.py "Your query here"` (Replace "Your query here" with your actual question or task)
+   
+
 
 You can use `test_chromadb.py` to check if chromadb is running and that the database has been created inside it.
 Also you can enter `http://localhost:8000/docs` to access the chromadb API.
