@@ -64,7 +64,7 @@
 
 5. Run `import_Local_RAG_data.py` and wait for it to chunk the text, and it will then create the vector store database in chromadb,
 
-* OR, You can run `PDF_text_extract.py` if you want to extract information from PDF files. (PDF files in the same directory as the script)
+* OR: You can run `PDF_text_extract.py` if you want to extract information from PDF files. (PDF files in the same directory as the script)
 
 6. Ask Ollama RAG a question in the terminal by using: `python runRAG.py "Your query here"` (Replace "Your query here" with your actual question or task)
    
