@@ -3,6 +3,7 @@
 ###### This project implements a system of RAG (Retrieval-Augmented Generation) that works with Ollama, with the Local Data you feed it.
 
 ##### The script has been tested on Windows.
+
 #
 
 ##### Prerequisites:
